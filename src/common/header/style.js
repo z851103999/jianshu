@@ -77,7 +77,19 @@ export const NavSearch = styled.input.attrs({
         color: #999;
     }
     &.focused {
-        width: 200px;
+        width: 240px;
+    }
+    &.slide-enter {
+        transition: all .2s ease-out;
+    }
+    &.slide-enter-ative {
+        width: 240px;
+    }
+    &.slide-exit {
+        transition: all .2s ease-out;
+    }
+    &.slide-exit-ative {
+        width: 160px;
     }
 `
 
