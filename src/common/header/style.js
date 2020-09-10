@@ -54,7 +54,6 @@ export const SearchWrapper = styled.div`
         line-height: 30px;
         border-radius: 15px;
         text-align: center;
-        background: green;
     }
 `
 
@@ -118,6 +117,10 @@ export const NavSearch = styled.input.attrs({
     }
     &.focused {
         width: 240px;
+
+    }
+    &.open-icon{
+        background:#333
     }
     &.slide-enter {
         transition: all .2s ease-out;
